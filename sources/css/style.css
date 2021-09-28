@@ -1,0 +1,462 @@
+/* Start FrameWork */
+
+body {
+  top: 0;
+  bottom: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.main-color {
+  color: #F16E20;
+}
+
+.white {
+  color: #ecd5bf;
+}
+
+.background {
+  background-color: #f16e20;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+}
+
+/* End FrameWork */
+
+/* Start Header */
+
+.header {
+  background-image: url(../images/header.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.header .navbar {
+  padding-top: 3%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header .intro {
+  padding-top: 6%;
+}
+
+.header .intro h1{
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.header .buttons button {
+  color: #ecd5bf;
+  font-weight: bold;
+  background: transparent;
+  width: 16%;
+  padding: 1%;
+  margin-right: 0.5%;
+  margin-top: 3%;
+  margin-bottom: 20%;
+  border-radius: 10px;
+  border: 1px solid #ecd5bf;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.header .buttons button:hover {
+  background-color: #F16E20;
+  border: 1px solid #F16E20;
+}
+
+.header .arrow i {
+  border: 0.5px solid #ecd5bf;
+  border-radius: 50%;
+  padding: 0.5%;
+}
+
+.header .arrow i {
+  color: #ecd5bf;
+  border: 0.5px solid #ecd5bf;
+  border-radius: 50%;
+  padding: 0.7%;
+  margin-left: 48%;
+  margin-top: 3%;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.header .arrow i:hover {
+  background-color: #F16E20;
+  border: 0.5px solid #F16E20;
+  cursor: pointer;
+}
+
+/* End Header */
+
+/* Start Features */
+
+.features {
+  margin: 10% 0;
+}
+
+.features i {
+  border: 1px solid #ecd5bf;
+  border-radius: 50%;
+  width: 55%;
+  height: 45%;
+  padding: 11%;
+}
+
+.features i:hover {
+  background-color: #F16E20;
+  border: 1px solid #F16E20;
+  color: #ecd5bf;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+
+.features h5 {
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  margin: 10% 0;
+}
+/* End Features */
+
+/* Start Subscribe */
+.subscribe {
+  background-image: url('../images/subscribe.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.subscribe .sub {
+  padding-top: 12%;
+  padding-bottom: 12%;
+}
+
+.subscribe button {
+  color: #ecd5bf;
+  font-weight: bold;
+  background: transparent;
+  padding: 3% 25%;
+  border: 1px solid #ecd5bf;
+  border-radius: 10px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.subscribe button:hover {
+  background-color: #F16E20;
+  border: 1px solid #F16E20;
+}
+
+.subscribe input {
+  color: #bbb9b9;
+  font-weight: bold;
+  background: #fff;
+  padding: 2% 17%;
+  margin-left: 25%;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  cursor: text;
+}
+
+/* End Subscribe */
+
+/* Start Gallery */
+
+.work {
+  margin-top: 10%;
+}
+
+.work h3 {
+  font-weight: bold;
+}
+
+.work .images .one {
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.work .images .card img {
+  width: 100%;
+  height: 300px;
+}
+
+.work .images .card {
+  position: relative;
+  border-radius: 5px;
+}
+
+.work .images .card:hover .over {
+  display: block;
+}
+
+.work .images .card .over {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(251, 140, 75, 0.81);
+  color: #fff;
+  display: none;
+}
+
+.work .images .card .over h4 {
+  font-weight: bold;
+  padding-top: 20%;
+}
+
+.work .images .card .over p {
+  padding-top: 7%;
+  line-height: 1.5rem;
+}
+
+.work .images .card .over button {
+  color: #fff;
+  font-weight: bold;
+  background: transparent;
+  padding: 4% 12%;
+  margin-top: 8%;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.work .images .card .over button:hover {
+  background-color: #fff;
+  color: #F16E20;
+  border: 1px solid #fff;
+}
+
+.work .show {
+  color: #000;
+  font-weight: bold;
+  background: transparent;
+  padding: 1.3% 5%;
+  margin-top: 7%;
+  margin-left: 40%;
+  border: 2px solid rgb(168, 168, 168);
+  border-radius: 10px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.work .show:hover {
+  color: #FFF;
+  background: #F16E20;
+  border: 2px solid #F16E20;
+  border-radius: 10px;
+  transform: scale(1.1);
+}
+/* End Gallery */
+
+/* Start Testimonials */
+
+.testimonials {
+  margin-top: 7%;
+  position: relative;
+}
+
+.testimonials .carousel-item .first {
+  height: 370px;
+  z-index: 1;
+}
+
+.testimonials .carousel-item .carousel-caption {
+  padding-bottom: 4%;
+  z-index: 3;
+}
+
+.testimonials .carousel-item .carousel-caption .person {
+  height: 9rem;
+  width: 8rem;
+  border-radius: 50%;
+}
+
+.testimonials .carousel-item .carousel-caption p {
+  font-style: italic;
+  padding-top: 5%;
+  word-spacing: 0.1rem;
+}
+
+.testimonials .carousel-item .carousel-caption span {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.testimonials .carousel-item .black {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+}
+
+/* End Testimonials */
+
+/* Start Our Team */
+
+.team {
+  margin-top: 6%;
+  color: #929090;
+}
+
+.team h3 {
+  font-weight: bold;
+}
+
+.team .cards {
+  margin-top: 5%;
+  cursor: pointer;
+}
+
+.team .cards .card i {
+  font-size: 1.4rem;
+    color: #FFF;
+    background-color: #929090;
+    border: 1px solid #929090;
+    border-radius: 50%;
+    margin: 8% 2%;
+    padding: 4%;
+}
+
+.team .cards .card:hover img {
+  border-bottom: 5px solid #F16E20;
+}
+
+.team .cards .card:hover .fa-facebook {
+  background-color: #0505ca;
+  border: 1px solid #0505ca;
+}
+
+.team .cards .card:hover .fa-google {
+  background-color: #e44c4c;
+  border: 1px solid #e44c4c;
+}
+
+.team .cards .card:hover .fa-twitter {
+  background-color: #72C3F5;
+  border: 1px solid #72C3F5;
+}
+/* End Our Team */
+
+/* Start Say Hello */
+
+.hello {
+  margin-top: 6%;
+  margin-bottom: 0;
+  background-image: url('../images/hello.jpg');
+  background-position: center;
+  background-size: cover;
+  color: #FFF;
+
+}
+
+.hello h3 {
+  font-weight: bold;
+  padding-top: 6%;
+  padding-bottom: 2%;
+}
+
+.hello .form {
+  margin : 5% 15%;
+}
+
+.hello .form .row3 button {
+  color: #ecd5bf;
+  font-weight: bold;
+  background: transparent;
+  width: 30%;
+  padding: 2%;
+  margin-top: 3%;
+  margin-bottom: 10%;
+  border-radius: 10px;
+  border: 1px solid #ecd5bf;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.hello .form .row3 button:hover {
+  background-color: #F16E20;
+  border: 1px solid #F16E20;
+}
+
+.hello .form .row3 a {
+  text-decoration: none;
+}
+
+.hello .form .row3 i {
+    font-size: 1.2rem;
+    color: #FFF;
+    background-color: #929090;
+    border: 1px solid #929090;
+    border-radius: 50%;
+    margin-top: 3%;
+    margin-left: 3%;
+    padding: 3%;
+    cursor: pointer;
+}
+
+.hello .form .row3 .fa-facebook {
+  background-color: #0505ca;
+  border: 1px solid #0505ca;
+}
+
+
+.hello .form .row3 .fa-twitter {
+  background-color: #72C3F5;
+  border: 1px solid #72C3F5;
+}
+
+
+.hello .form .row3 .fa-instagram {
+  background-color: pink;
+  border: 1px solid pink;
+}
+
+.hello .form .row3 .fa-google-plus {
+  background-color: #e44c4c;
+  border: 1px solid #e44c4c;
+}
+
+
+.hello .form .row3 .fa-linkedin {
+  background-color: #72C3F5;
+  border: 1px solid #72C3F5;
+}
+
+/* End Say Hello */
